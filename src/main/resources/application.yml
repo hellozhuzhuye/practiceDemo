@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://i100c.3322.org:13001/ycharge?useUnicode=true&characterEncoding=UTF-8
+    username: charge
+    password: charge
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      stat-view-servlet:
+        allow: true
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat
+    maxActive: 20
+
+server:
+  port: 9090
