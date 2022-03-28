@@ -1,4 +1,4 @@
-package com.example.practiceDemo.knife4j.config.model;
+package com.example.practiceDemo.knife4j.model;
 
 import io.swagger.annotations.ApiModelProperty;
 

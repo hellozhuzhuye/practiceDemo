@@ -1,6 +1,6 @@
 package com.example.practiceDemo.knife4j.controller;
 
-import com.example.practiceDemo.knife4j.config.model.User;
+import com.example.practiceDemo.knife4j.model.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
