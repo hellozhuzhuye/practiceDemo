@@ -69,6 +69,19 @@
             <artifactId>java-jwt</artifactId>
             <version>3.18.3</version>
         </dependency>
+
+<!--        netty-->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.75.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.22</version>
+        </dependency>
     </dependencies>
 
 
