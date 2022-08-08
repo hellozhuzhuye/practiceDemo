@@ -11,6 +11,13 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     filters: stat
     maxActive: 20
+  rabbitmq:
+    host: 192.168.1.115
+    port: 5672
+    virtual-host: /test
+    username: test
+    password: test
+
 
 server:
   port: 9090

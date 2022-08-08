@@ -10,3 +10,8 @@
 - src/main/java/com/example/practiceDemo/jwt
 
 ## 3.netty
+- src/main/java/com/example/practiceDemo/netty
+
+## 4.RabbitMQ
+- src/main/java/com/example/practiceDemo/rabbitmq
+- https://www.macrozheng.com/mall/reference/rabbitmq_start.html

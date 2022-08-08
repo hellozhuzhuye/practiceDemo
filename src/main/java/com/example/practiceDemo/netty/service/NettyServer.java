@@ -29,7 +29,7 @@ public class NettyServer {
                     .option(ChannelOption.SO_BACKLOG, 128)
                     .childHandler(new MyChannelInitializer());
             ChannelFuture f = b.bind(port).sync();
-            System.out.println("itstack-demo-netty server start done.");
+            System.out.println("netty server start done.");
             f.channel().closeFuture().sync();
         } catch (InterruptedException e) {
             log.error("异常：",e);
